@@ -5,8 +5,6 @@ from streamlit_option_menu import option_menu
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.set_page_config(layout="wide")
-
 
 # CSS for styling the container and metrics
 container_style = """
