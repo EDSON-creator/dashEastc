@@ -3,6 +3,8 @@ import sqlite3
 
 st.set_page_config(layout="wide")
 
+wide_space_default()
+
 
 def check_login(username, password):
     conn = sqlite3.connect('users.db')
