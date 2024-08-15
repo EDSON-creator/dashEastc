@@ -1,6 +1,8 @@
 import streamlit as st
 import sqlite3
 
+st.set_page_config(layout="wide")
+
 
 def check_login(username, password):
     conn = sqlite3.connect('users.db')
