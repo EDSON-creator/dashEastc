@@ -2,7 +2,6 @@ import streamlit as st
 
 
 st.set_page_config(layout="wide")
-wide_space_default()
 # Import page functions
 from login import login_page
 from dash import home_page
