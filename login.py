@@ -25,6 +25,6 @@ def login_page():
         if check_login(username, password):
             st.session_state["logged_in"] = True
             st.session_state["page"] = "dashboard"
-            st.experimental_rerun()  # Ensure the page rerenders immediately
+            #st.experimental_rerun()  # Ensure the page rerenders immediately
         else:
             st.error("Invalid username or password")
