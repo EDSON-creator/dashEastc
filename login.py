@@ -20,7 +20,7 @@ def check_login(username, password):
 def login_page():
     st.title("Login Page")
 
-    username = st.text_input("Username")
+    username = st.text_input("Usernae")
     password = st.text_input("Password", type="password")
 
     if st.button("Login"):
