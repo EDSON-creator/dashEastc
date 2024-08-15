@@ -26,5 +26,6 @@ def login_page():
         if check_login(username, password):
             st.session_state["logged_in"] = True
             st.session_state["page"] = "dashboard"
+            st.session_state["login_success"] = True
         else:
             st.error("Invalid username or password")
